@@ -1,0 +1,52 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de caché Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribución / empaquetado
+.eggs/
+*.egg-info/
+dist/
+build/
+develop-eggs/
+
+# Archivos de proyectos de IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Directorios de datos locales
+data/samples/*
+!data/samples/.gitkeep
+data/guidelines/*
+!data/guidelines/.gitkeep
+
+# Archivos de configuración local
+.env
+config.yaml
+
+# Archivos de caché de ChromaDB
+.chroma/
+vector_store/
+
+# Logs y resultados
+logs/
+*.log
+output/
+results/
+
+# Archivos de pytest
+.pytest_cache/
+.coverage
+htmlcov/

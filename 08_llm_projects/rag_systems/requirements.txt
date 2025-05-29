@@ -1,0 +1,39 @@
+# Dependencias principales
+numpy>=1.24.0
+pandas>=1.5.0
+tqdm>=4.65.0
+
+# OCR
+python-doctr[torch]>=0.6.0  # OCR avanzado para documentos
+easyocr>=1.7.0              # Alternativa más sencilla
+Pillow>=9.5.0               # Procesamiento de imágenes
+
+# Procesamiento PDF
+PyMuPDF>=1.22.0             # Extracción avanzada de PDF (fitz)
+pdfplumber>=0.10.0          # Extracción de texto y tablas de PDF
+
+# Embeddings y Vectorización
+sentence-transformers>=2.2.2  # Embeddings semánticos
+chromadb>=0.4.6               # Base de datos vectorial
+langchain>=0.0.267            # Framework de orquestación
+langchain-community>=0.0.10   # Componentes comunitarios
+llama-index>=0.8.4            # Alternativa a LangChain
+
+# LLM Local
+ollama>=0.1.4                 # Interfaz para modelos locales
+transformers>=4.32.0          # Hugging Face Transformers
+accelerate>=0.23.0            # Aceleración de inferencia
+
+# Formateo y visualización
+rich>=13.4.2                  # Output en consola mejorado
+pydantic>=2.3.0               # Validación de datos
+jsonschema>=4.19.0            # Validación de JSON
+
+# Uso opcional del sistema
+typer[all]>=0.9.0             # CLI avanzado
+fastapi>=0.103.1              # API opcional
+streamlit>=1.26.0             # Interfaz web opcional
+
+# Testing
+pytest>=7.0.0                 # Framework de testing
+pytest-cov>=4.1.0             # Cobertura de tests
